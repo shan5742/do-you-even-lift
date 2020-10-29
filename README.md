@@ -1,99 +1,73 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
+# Do You Even Lift
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+A simple website built with Gatsby and Styled components for my gym routine. The routine si split into three days with two main muscle groups worked on each day.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+- Day 1: Chest & Triceps
 
-## 🚀 Quick start
+- Day 2: Back & Biceps
 
-1.  **Create a Gatsby site.**
+- Day 3: Legs & Shoulders
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+## How to Follow
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+Each day has multiple exercises (explained below) and in general you should be aiming for 3 sets of each exercise. The goal of this program is to develop strength, so you should be choosing fairly heave weights and aim for 10 reps on set 1, 8 reps on set 2 and 6 reps on set 3. You should generally do a very light warm up set of each exercise just to engage the muscle groups used.
 
-1.  **Start developing.**
+```
+DISCLAIMER: I am not a personal trainer, this is just a repo for my workout routine and I figured building a small website will help me follow it and be productive in the gym. There are likely many better routines and guides available, but I have used this routine to start getting into resistance training and done well with it so far.
+```
 
-    Navigate into your new site’s directory and start it up.
+## Warm Up
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+You should always warm up, I tend to do a few basic stretches, 5-10 mins cardio (bike, treadmill etc) and usually some skipping. It is not really important what you do, just be sure to do something to warm your body and muscles up.
 
-1.  **Open the source code and start editing!**
+## Day 1
 
-    Your site is now running at `http://localhost:8000`!
+Day one is built up of 8 different exercises, three sets of each as described above. Except for the _Bench Dips_, I tend to just do three sets of 10 for those with them just being a bodyweight exercise. Here is the total list for day 1:
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+- Bench Press
+- Incline Dumbbell bench press
+- Dumbbell fly
+- Cable Crossover
+- Bench Dips
+- Tricep Rope pulldown
+- 1 arm overhead extension
+- Skull Crusher
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## Day 2
 
-## 🧐 What's inside?
+Day two has 8 exercises, all three sets other than the last set - **Barbell Curl** - where I do a set of 21s, if you are unsure how to perform 21s then [this](https://www.youtube.com/watch?v=ih_U-ChDJWE) youtube video will help:
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+- Deadlift
+- Bench Row
+- Reverse Fly
+- Lat Pull Down
+- Barbell Row
+- Hammer Curls
+- EZ-Bar Curls
+- Barbell Curl 21s
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+## Day 3
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Day 3 has 9 exercises, all three sets as described above:
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+- Leg Extension
+- Leg Curl
+- Goblet Squat
+- Seated Calf Raise
+- Low Bar Squat
+- Dumb Bell Shoulder Press
+- Bent-Over Dumbbell Lateral Raise
+- Dumbbell Lateral Raise
+- Shrugs
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+## What's Next
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+In it's current state this is an extremely simple website, but it serves it's purpose - offering me a quick and easy way to get my routine on my phone, so that I know exactly what I am doing. Having said that, once doing a routine for a couple of weeks you commit it to memory, so it would be more useful to have a way of recording my workouts, in terms of number of reps at what weight etc.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+So, when time allows the pla is to hook this site up to firebase and offer the ability to start a new workout, which will go through each set asking for your weights and reps. Then the next logical step would be a section for outputting your results and showing progress over time.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+If time is no object the next feature would be some type of logic to help the user decide when to move up or down in weight based off of their inputs, however it is unlikely I get to this stage. Mainly because I do not know enough about resistance training to offer this type of advice. Also time is unfortunately not no object, so in reality I probably wouldn't get around to this even if it is something I could do.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+### Final Thoughts
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+This is more of a personal project meant only to be used by me. However I do like to learn and experiment in the open so I figured I would make this repo public. But again, I am no expert with fitness or resistance training, so this is unliekly to be super useful for others - other than an idea you could implement for your own routine.
